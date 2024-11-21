@@ -152,7 +152,7 @@ if submit_button:
         
 
         # Display message based on Job Description Match percentage
-        if match_percentage >= 80:
+        if match_percentage >= 70:
             st.markdown('<p style="color: green;font-size: 20px;text-align: left;">Move forward with hiring</p>', unsafe_allow_html=True)
         
             
